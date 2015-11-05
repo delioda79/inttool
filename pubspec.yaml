@@ -1,0 +1,3 @@
+name: integrityTool
+dependencies:
+  test: "^0.12.5+1"
