@@ -5,5 +5,5 @@ class Review {
   int length;
   int stars;
 
-  Review(this.date, this.type, this.device, this.length, this.stars)
+  Review(this.date, this.type, this.device, this.length, this.stars);
 }

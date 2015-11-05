@@ -13,5 +13,8 @@ void main() {
     Advisor advisor = new Advisor('Jon');
     List<Review> reviews = advisor.getReviews();
     expect(reviews.length, equals(0));
+
+    advisor.addReview(new DateTime.now(), 'solicited', 'LB3‐TYU', 50, 5);
+    expect(reviews.length, equals(1));
   });
 }
